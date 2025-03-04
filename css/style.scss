@@ -1,9 +1,9 @@
 $black: #000000;
-$borderColor:#ff4f5a;
+$borderColor: #ff4f5a;
 $white: #ffffff;
 
 @mixin main-font {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @mixin secondary-font {
@@ -81,8 +81,6 @@ body {
   }
 }
 
-
-
 .btn-box {
   display: flex;
   align-items: center;
@@ -105,7 +103,8 @@ body {
 }
 
 /*header section*/
-.hero_area {}
+.hero_area {
+}
 
 .sub_page {
   .hero_area {
@@ -228,7 +227,6 @@ a:focus {
 
 /* slider section */
 .slider_section {
-
   .row {
     align-items: center;
   }
@@ -251,21 +249,15 @@ a:focus {
     }
   }
 
-
-
   .slider_nav-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-
-
     .custom_carousel-control {
       display: flex;
     }
   }
-
-
 }
 
 .slider_section .carousel-control-prev,
@@ -279,14 +271,12 @@ a:focus {
   background-position: center;
 }
 
-
 .slider_section .carousel-control-prev {
   left: 2%;
   background-image: url(../images/left-arrow-black.png);
 
   &:hover {
     background-image: url(../images/left-arrow.png);
-
   }
 }
 
@@ -296,7 +286,6 @@ a:focus {
 
   &:hover {
     background-image: url(../images/right-arrow.png);
-
   }
 }
 
@@ -348,7 +337,6 @@ a:focus {
           min-width: 100px;
         }
       }
-
     }
 
     &.b-3 {
@@ -367,7 +355,6 @@ a:focus {
           min-width: 100px;
         }
       }
-
     }
   }
 
@@ -385,7 +372,8 @@ a:focus {
       font-weight: bold;
     }
 
-    p {}
+    p {
+    }
 
     .btn-box {
       a {
@@ -444,7 +432,7 @@ a:focus {
       background-color: $white;
       border-radius: 5px;
       margin: 45px 10px;
-      box-shadow: 0 0 8px 0px rgba(0, 0, 0, .1);
+      box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
 
       .img-box {
         width: 150px;
@@ -467,7 +455,6 @@ a:focus {
       &.b-4 {
         animation: even-box-animate 2s infinite;
       }
-
     }
   }
 
@@ -510,13 +497,10 @@ a:focus {
   }
 }
 
-
-
 // end work section
 
 // contact section
 .contact_section {
-
   input,
   select {
     width: 100%;
@@ -529,7 +513,6 @@ a:focus {
     &::placeholder {
       color: #3a3a3a;
     }
-
   }
 
   button {
@@ -581,7 +564,6 @@ a:focus {
         img {
           width: 100%;
         }
-
       }
 
       .name {
@@ -594,7 +576,6 @@ a:focus {
         }
       }
     }
-
   }
 }
 
