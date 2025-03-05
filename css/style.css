@@ -96,7 +96,7 @@ body {
 .header_section {
   background-color: rgb(167, 225, 220);
   font-family: "Poppins", sans-serif;
-  position: fixed-top;
+  position: sticky;
   top: 0;
   right: 0;
   left: 0;
@@ -104,8 +104,8 @@ body {
 }
 
 .header_section .container-fluid {
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .header_section .nav_container {
@@ -113,7 +113,7 @@ body {
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-  padding: 10px 30px;
+  padding: 10px 10px;
   color: #ffffff;
   text-align: center;
   position: relative;
@@ -197,6 +197,7 @@ a:focus {
 
 .custom_nav-container .navbar-toggler {
   outline: none;
+  padding: 0%;
 }
 
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
