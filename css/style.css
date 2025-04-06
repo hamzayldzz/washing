@@ -688,10 +688,18 @@ a:focus {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-#icon-barr {
+#icon-wpp {
   position: fixed;
   top: 80%;
   right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#icon-barr {
+  position: fixed;
+  top: 80%;
+  left: 0;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -712,7 +720,7 @@ a:focus {
   color: #448edd;
 }
 .phone {
-  background: #448edd;
+  background: #ff4f5a;
   color: #000000;
   &:hover {
     color: #53d365;
@@ -725,6 +733,14 @@ a:focus {
     clear: both;
     float: left;
     margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+  .whatsapp {
+    visibility: hidden;
+    clear: both;
+    float: right;
+    margin: 10px 20px 5px auto;
     width: 28%;
     display: none;
   }
